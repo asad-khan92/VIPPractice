@@ -14,7 +14,12 @@ import UIKit
 
 class ContactListWorker
 {
-  func retrieveContacts()
+    func retrieveContacts(@escaping completionHandler:)
   {
+    
+    ContactWorker().getAllContacts { (contacts) in
+        
+        
+    }
   }
 }

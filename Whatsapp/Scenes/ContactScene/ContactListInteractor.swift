@@ -41,7 +41,6 @@ class ContactListInteractor: ContactListBusinessLogic, ContactListDataStore
         self.presenter?.presentFetchedOrders(response: response)
     }
     
-    let response = ContactList.FetchContacts.Response()
-    presenter?.presentSomething(response: response)
+  
   }
 }

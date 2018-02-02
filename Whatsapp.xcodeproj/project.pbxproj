@@ -31,6 +31,8 @@
 		053E350F20247DF9006B57E9 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E350C20247DF9006B57E9 /* ContactCell.swift */; };
 		053E35132024891B006B57E9 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E35122024891B006B57E9 /* Contact.swift */; };
 		053E35142024891B006B57E9 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E35122024891B006B57E9 /* Contact.swift */; };
+		053E35172024A66C006B57E9 /* ContactWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E35162024A66C006B57E9 /* ContactWorker.swift */; };
+		053E35182024A66C006B57E9 /* ContactWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E35162024A66C006B57E9 /* ContactWorker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,7 @@
 		053E350820243FF7006B57E9 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 		053E350C20247DF9006B57E9 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		053E35122024891B006B57E9 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		053E35162024A66C006B57E9 /* ContactWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactWorker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,7 @@
 		053E34C420243E29006B57E9 /* Whatsapp */ = {
 			isa = PBXGroup;
 			children = (
+				053E35152024A648006B57E9 /* Helpers */,
 				053E3510202488EC006B57E9 /* Models */,
 				053E350A20247DCB006B57E9 /* TableViewCells */,
 				053E34F320243E41006B57E9 /* Scenes */,
@@ -213,6 +217,14 @@
 				053E35122024891B006B57E9 /* Contact.swift */,
 			);
 			path = Contact;
+			sourceTree = "<group>";
+		};
+		053E35152024A648006B57E9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				053E35162024A66C006B57E9 /* ContactWorker.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +365,7 @@
 				053E350D20247DF9006B57E9 /* ContactCell.swift in Sources */,
 				053E34FD20243E83006B57E9 /* ContactListModels.swift in Sources */,
 				053E350520243E83006B57E9 /* ContactListWorker.swift in Sources */,
+				053E35172024A66C006B57E9 /* ContactWorker.swift in Sources */,
 				053E34FF20243E83006B57E9 /* ContactListPresenter.swift in Sources */,
 				053E350120243E83006B57E9 /* ContactListRouter.swift in Sources */,
 				053E34C620243E29006B57E9 /* AppDelegate.swift in Sources */,
@@ -369,6 +382,7 @@
 				053E350E20247DF9006B57E9 /* ContactCell.swift in Sources */,
 				053E34FE20243E83006B57E9 /* ContactListModels.swift in Sources */,
 				053E350620243E83006B57E9 /* ContactListWorker.swift in Sources */,
+				053E35182024A66C006B57E9 /* ContactWorker.swift in Sources */,
 				053E350020243E83006B57E9 /* ContactListPresenter.swift in Sources */,
 				053E350220243E83006B57E9 /* ContactListRouter.swift in Sources */,
 				053E34DB20243E2A006B57E9 /* WhatsappTests.swift in Sources */,
