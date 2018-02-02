@@ -536,7 +536,7 @@
 				DEVELOPMENT_TEAM = H955B757YX;
 				INFOPLIST_FILE = Whatsapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AsadK.Whatsapp;
+				PRODUCT_BUNDLE_IDENTIFIER = AsadK.Whatsapp.visionspark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -551,7 +551,7 @@
 				DEVELOPMENT_TEAM = H955B757YX;
 				INFOPLIST_FILE = Whatsapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AsadK.Whatsapp;
+				PRODUCT_BUNDLE_IDENTIFIER = AsadK.Whatsapp.visionspark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
